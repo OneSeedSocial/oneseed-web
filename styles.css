@@ -1192,3 +1192,53 @@ main,
     width: 46%;
   }
 }
+
+/* OneSeed Web 0.6 — titular más amplio en la portada */
+@media (min-width: 901px) {
+  .hero {
+    position: relative;
+    grid-template-columns: minmax(0, 0.96fr) minmax(390px, 0.86fr);
+    gap: clamp(24px, 3.5vw, 48px);
+  }
+
+  .hero-copy {
+    position: relative;
+    z-index: 3;
+    max-width: 690px;
+  }
+
+  /* Solo el titular invade parte del espacio visual de la derecha. */
+  .hero-copy h1 {
+    width: min(930px, calc(100vw - 80px));
+    max-width: none;
+    margin-right: -260px;
+  }
+
+  .hero-intro {
+    max-width: 580px;
+  }
+
+  .hero-garden {
+    z-index: 1;
+    min-height: 470px;
+    transform: translate(22px, 28px);
+  }
+
+  .hero-garden::before {
+    inset: 18% 3% 7% 18%;
+  }
+
+  .hero-garden .garden-leaves {
+    left: 15%;
+    bottom: 3%;
+    width: 45%;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1080px) {
+  .hero-copy h1 {
+    width: min(820px, calc(100vw - 56px));
+    margin-right: -210px;
+  }
+}
+
