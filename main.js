@@ -54,7 +54,7 @@
     submitButton.disabled = busy;
     emailInput.disabled = busy;
     consentInput.disabled = busy;
-    submitButton.textContent = busy ? 'Plantando…' : 'Plantar mi correo';
+    submitButton.textContent = busy ? 'Enviando…' : 'Enviar correo';;
   };
 
   const normalizeProjectUrl = (value) => value.replace(/\/+$/, '');
