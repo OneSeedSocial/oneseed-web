@@ -1,12 +1,5 @@
 window.ONESEED_CONFIG = {
-  // Copia aquí la URL del proyecto, por ejemplo:
-  // https://abcdefghijk.supabase.co
-  supabaseUrl: '',
-
-  // Usa la Publishable key (sb_publishable_...) o, temporalmente,
-  // la anon key heredada. Nunca uses una Secret o service_role key aquí.
-  supabasePublishableKey: '',
-
-  // Cambia a true únicamente después de completar privacidad.html.
-  waitlistEnabled: false,
+  supabaseUrl: 'https://dreinrfakkkvhvtbnczs.supabase.co',
+  supabasePublishableKey: 'sb_publishable_NEYCRz-tfxebhx8onTwyjA_AzMQQrzY',
+  waitlistEnabled: true,
 };
