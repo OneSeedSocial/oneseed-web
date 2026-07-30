@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F6F2EA" />
+    <meta
+      name="description"
+      content="OneSeed es una forma distinta de conversar: una oportunidad al día, encuentros guiados por el azar y un jardín que descansa hasta mañana."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:title" content="OneSeed — Una conversación al día" />
+    <meta
+      property="og:description"
+      content="Una conexión azarosa sobre un tema que aún desconoces."
+    />
+    <title>OneSeed — Una conversación al día</title>
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="config.js"></script>
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenido">Ir al contenido</a>
+
+    <header class="site-header" aria-label="Cabecera">
+      <a class="brand" href="#inicio" aria-label="OneSeed, volver al inicio">
+        <img
+          src="assets/oneseed_logo.svg"
+          width="178"
+          height="67"
+          alt="OneSeed"
+        />
+      </a>
+      <a class="header-cta" href="#lista-espera">Quiero conocer OneSeed</a>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Una conversación al día</p>
+          <h1 id="hero-title">
+            Una conexión azarosa sobre un tema que aún desconoces.
+          </h1>
+          <p class="hero-intro">
+            Cada día, OneSeed te ofrece una oportunidad: continuar una
+            conversación o plantar una nueva semilla.
+          </p>
+          <a class="primary-link" href="#lista-espera">
+            Quiero conocer OneSeed
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="hero-garden reveal" aria-hidden="true">
+          <img src="assets/garden.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="section how" aria-labelledby="how-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Cómo funciona</p>
+          <h2 id="how-title">Un pequeño momento, una vez al día.</h2>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-number" aria-hidden="true">01</span>
+            <h3>Vuelve una vez al día.</h3>
+            <p>Tu jardín despierta con una nueva oportunidad.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-number" aria-hidden="true">02</span>
+            <h3>Acepta el azar.</h3>
+            <p>
+              Podrás hacer crecer una conversación o plantar una semilla.
+            </p>
+          </li>
+          <li class="step reveal">
+            <span class="step-number" aria-hidden="true">03</span>
+            <h3>Déjala seguir su camino.</h3>
+            <p>
+              No hay seguidores, likes ni necesidad de volver continuamente.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section difference" aria-labelledby="different-title">
+        <div class="difference-card reveal">
+          <div>
+            <p class="eyebrow">Una forma distinta de estar</p>
+            <h2 id="different-title">Conversaciones, no popularidad.</h2>
+          </div>
+          <ul class="principles" aria-label="Lo que hace diferente a OneSeed">
+            <li>Una oportunidad diaria.</li>
+            <li>Conversaciones, no perfiles.</li>
+            <li>Azar cuidado.</li>
+            <li>Sin seguidores, métricas ni popularidad.</li>
+            <li>Un jardín que descansa hasta mañana.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section garden-section" id="jardin" aria-labelledby="garden-title">
+        <div class="garden-copy reveal">
+          <p class="eyebrow">Tu jardín</p>
+          <h2 id="garden-title">Las conversaciones dejan memoria.</h2>
+          <p>
+            Las conversaciones que ayudas a crecer forman parte de tu jardín.
+            Algunas seguirán recibiendo hojas. Otras terminarán floreciendo.
+          </p>
+        </div>
+        <div class="garden-detail reveal" aria-hidden="true">
+          <span class="garden-line"></span>
+          <span class="stone stone-one"></span>
+          <span class="leaf leaf-one"></span>
+          <span class="stone stone-two"></span>
+          <span class="flower flower-one"></span>
+        </div>
+      </section>
+
+      <section class="section coexistence" aria-labelledby="coexistence-title">
+        <div class="coexistence-inner reveal">
+          <p class="eyebrow">Principio de convivencia</p>
+          <h2 id="coexistence-title">
+            En OneSeed se viene a añadir,<br />no a discutir.
+          </h2>
+          <a class="text-link" href="normas.html">Leer las normas</a>
+        </div>
+      </section>
+
+      <section class="section waitlist" id="lista-espera" aria-labelledby="waitlist-title">
+        <div class="waitlist-inner reveal">
+          <div class="waitlist-copy">
+            <p class="eyebrow">Antes de que el jardín abra</p>
+            <h2 id="waitlist-title">
+              Quizá mañana te espere una conversación que nunca habrías buscado.
+            </h2>
+            <p>
+              Déjanos tu correo y te avisaremos cuando OneSeed esté lista.
+            </p>
+          </div>
+
+          <form class="waitlist-form" id="waitlist-form" novalidate>
+            <div class="field-row">
+              <label class="sr-only" for="email">Correo electrónico</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                inputmode="email"
+                autocomplete="email"
+                maxlength="254"
+                placeholder="tu@email.com"
+                required
+              />
+              <button type="submit" id="waitlist-submit">
+                Plantar mi correo
+              </button>
+            </div>
+
+            <div class="honeypot" aria-hidden="true">
+              <label for="website">No rellenar este campo</label>
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <label class="consent">
+              <input id="consent" name="consent" type="checkbox" required />
+              <span>
+                Quiero recibir un aviso sobre el lanzamiento y he leído la
+                <a href="privacidad.html">información de privacidad</a>.
+              </span>
+            </label>
+
+            <p class="form-note">
+              Solo usaremos tu correo para informarte sobre OneSeed.
+            </p>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="assets/favicon.svg" width="30" height="42" alt="" />
+      <p>OneSeed respeta tu tiempo y espera tu regreso sin exigirlo.</p>
+      <nav aria-label="Enlaces legales">
+        <a href="normas.html">Normas</a>
+        <a href="privacidad.html">Privacidad</a>
+      </nav>
+    </footer>
+
+    <noscript>
+      <p class="noscript-message">
+        Activa JavaScript para apuntarte a la lista de espera.
+      </p>
+    </noscript>
+  </body>
+</html>
