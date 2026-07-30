@@ -1129,3 +1129,66 @@ main,
     padding-bottom: 28px;
   }
 }
+
+
+/* OneSeed Web 0.5 — portada más limpia */
+/* Circunferencia más contenida detrás de las plantas. */
+.hero-garden::before {
+  inset: 15% 12% 11%;
+}
+
+/* Las plantas originales recuperan presencia sin competir con el titular. */
+.hero-garden .garden-leaves {
+  left: 5%;
+  bottom: 5%;
+  width: 47%;
+  opacity: 0.76;
+}
+
+.garden-scene--detail .garden-leaves {
+  right: 5%;
+  bottom: 5%;
+  width: 47%;
+  opacity: 0.72;
+}
+
+/* Las piedras decorativas se retiran por completo. */
+.garden-stone {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .hero-garden::before {
+    inset: 14% 11% 10%;
+  }
+
+  .hero-garden .garden-leaves {
+    left: 4%;
+    bottom: 4%;
+    width: 45%;
+  }
+
+  .garden-scene--detail .garden-leaves {
+    right: 4%;
+    bottom: 5%;
+    width: 45%;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero-garden::before {
+    inset: 13% 10% 9%;
+  }
+
+  .hero-garden .garden-leaves {
+    left: 3%;
+    bottom: 3%;
+    width: 46%;
+  }
+
+  .garden-scene--detail .garden-leaves {
+    right: 3%;
+    bottom: 4%;
+    width: 46%;
+  }
+}
